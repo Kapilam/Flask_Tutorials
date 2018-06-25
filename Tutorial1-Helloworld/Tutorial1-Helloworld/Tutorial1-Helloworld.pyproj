@@ -33,7 +33,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnswerQuestion.html" />
     <Content Include="requirements.txt" />
+    <Content Include="CreateQuestion.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="flaskenv\">
