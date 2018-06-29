@@ -11,7 +11,7 @@ app = Flask(__name__)
 wsgi_app = app.wsgi_app
 
 # import all of route codes from route.py
-from routes import *; #import all routes. * mean all"
+from routes import * #import all routes * mean all"
 # To Launch the server
 if __name__ == '__main__':
     import os
