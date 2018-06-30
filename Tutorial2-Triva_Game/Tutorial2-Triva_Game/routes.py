@@ -3,10 +3,10 @@ from app import app;
 import redis;
 
 #Connect to redis data store in Azure clouse
-#r = redis.StrictRedis(host='kmredisdns.redis.cache.windows.net', port=6380, db=0, password=AvfpG+2Uc8aJ7AADoVdS7uHzXaSeyIxjwPDZIdt66CM=ssl=True, charset="utf-8", decode_responses=True);
+r = redis.StrictRedis(host='kmredisdns.redis.cache.windows.net', port=6380, db=0, password='AvfpG+2Uc8aJ7AADoVdS7uHzXaSeyIxjwPDZIdt66CM=', ssl =True, charset="utf-8", decode_responses=True);
 
 #Connect to local host
-r = redis.StrictRedis(host='localhost', port=6379, db=0, , charset="utf-8", decode_responses=True);
+#r = redis.StrictRedis(host='localhost', port=6379, db=0, charset="utf-8", decode_responses=True);
 
 
 # server/

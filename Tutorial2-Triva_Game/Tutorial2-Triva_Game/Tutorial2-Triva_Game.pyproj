@@ -33,6 +33,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="KMTrivaGame - Web Deploy.pubxml" />
     <Content Include="Readme.txt" />
     <Content Include="Templates\AnswerQuestion.html" />
     <Content Include="Templates\Correct.html" />
